@@ -1,0 +1,89 @@
+body {
+  background-color: red; /* Sets the background color of the entire page to red */
+  overflow: hidden;
+}
+
+.style-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Adjusted to ensure the container takes full viewport height */
+  background-color:antiquewhite; /* Changed background color to light grey for better contrast */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  color: #333; /* Darker color for better readability */
+  margin-bottom: 20px;
+}
+
+.form {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.inp {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+p {
+  font-family: 'Arial', sans-serif;
+  color: #d9534f; /* Red color for error messages */
+}
+
+.weather-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-info h2 {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.weather-info p {
+  font-family: 'Arial', sans-serif;
+  color: #666;
+  margin: 5px 0;
+}
+
+.temp-image {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.hot p,
+.cold p {
+  font-size: 18px;
+  margin-top: 10px;
+}
